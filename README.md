@@ -64,7 +64,7 @@ Below is the high-level architecture of the solution. An image uploaded to the i
     * Choose your desired Python runtime (`Python 3.12`).
     * Select the IAM role you created in Step 1.
     * Upload your `lambda_function.py` code.
-    * Under **Configuration** -> **Layers**, add the `PillowLayer`, To simplify deployment and manage dependencies, I utilized a publicly available Lambda Layer for Pillow, which eliminates the need to build the layer locally. The ARN for this layer is sourced from this [repository] (https://github.com/keithrozario/Klayers)
+    * Under **Configuration** -> **Layers**, add the `PillowLayer`, To simplify deployment and manage dependencies, I utilized a publicly available Lambda Layer for Pillow, which eliminates the need to build the layer locally. The ARN for this layer is sourced from this [repository](https://github.com/keithrozario/Klayers)
 
 3.  **Configure the S3 Trigger:**
     * In the Lambda function's console, add a trigger.
@@ -93,4 +93,5 @@ https://github.com/user-attachments/assets/56883088-e119-4c1f-93b2-29821916bdad
 -   Support multiple output sizes for a single image upload.
 
 -   Optimize image formats for web delivery to reduce file size.
+
 
