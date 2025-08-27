@@ -84,8 +84,6 @@ Watch a quick demo of the function in action. A new image is uploaded to the inp
 https://github.com/user-attachments/assets/56883088-e119-4c1f-93b2-29821916bdad
 
 
-<video src="demo.mp4" width="600" controls></video>
-
 ## 💡 Notes & Troubleshooting
 -   **Import Errors:** If you encounter a `No module named 'PIL'` error, it means your Lambda layer is not correctly attached or is not compatible with your function's runtime or architecture. Ensure the Python versions and architectures (`x86_64` or `arm64`) for your layer and function match exactly.
 
@@ -95,3 +93,4 @@ https://github.com/user-attachments/assets/56883088-e119-4c1f-93b2-29821916bdad
 -   Support multiple output sizes for a single image upload.
 
 -   Optimize image formats for web delivery to reduce file size.
+
