@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env/
+
+# IDE files
+.idea/
+.vscode/
+
+# AWS Lambda
+*.zip
